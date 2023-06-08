@@ -17,7 +17,7 @@ void flood_it(int x, int y, float* bc)
 	{
 		float color[3];
 
-		/ 
+		
 		glReadPixels(x,y,1.0,1.0,GL_RGB,GL_FLOAT,color);
 
     
